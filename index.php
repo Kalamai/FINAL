@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 6ac646a9deaa6a1c569585ac62d257721dd46284
 <!DOCTYPE HTML>
 <!--
 	Snapshot by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 6ac646a9deaa6a1c569585ac62d257721dd46284
 <html>
 <head>
 	<title>S.C Photo</title>
