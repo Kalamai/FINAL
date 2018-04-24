@@ -1,17 +1,10 @@
-<?php
-// Start the session
-session_start();
-?>
-
-
 <!DOCTYPE HTML>
 <!--
 	Snapshot by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
-<?php
-//?>
+
 
 <html>
 <head>
