@@ -43,12 +43,11 @@
 		<!-- Main -->
 		<section id="main">
 
-			<!-- Header -->
-			<header id="header">
-<?php
-include 'session.php';
-?>
-			</header>
+
+				<?php
+				include 'session.php';
+				?>
+
 
 			<!-- Gallery -->
 			<section id="galleries">
@@ -81,13 +80,19 @@ include 'session.php';
 				</div>
 			</section>
 
+				<section id="upload">
+					<div>
+						<form action="upload.php" method="POST" enctype="multipart/form-data" class="upload">
+						<input type="file" name="file[]" id="" accept="image/jpeg,image/jpg,image/gif,image/png" multiple>							
+						<input type="submit" name="submit" value="上傳檔案" >
+						</form>
+					</div>
+
+				</section>			
+
 			<!-- Footer -->
 			<footer id="footer">
-				<div class="copyright">
-					&copy; Untitled Design:
-					<a href="https://templated.co/">TEMPLATED</a>. Images:
-					<a href="https://unsplash.com/">Unsplash</a>.
-				</div>
+
 			</footer>
 		</section>
 	</div>

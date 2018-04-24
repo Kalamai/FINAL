@@ -41,10 +41,12 @@
 		<!-- Main -->
 		<section id="main">
 
-<?php
-	
-include 'session.php';
-?>
+			<!-- Header -->
+
+				<?php
+				include 'session.php';
+				?>
+
 		
 			<section id="banner">
 				<div class="inner">
