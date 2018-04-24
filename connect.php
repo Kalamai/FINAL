@@ -1,6 +1,5 @@
 <?php 
-
-        
+       
 	$servername = "localhost"; //伺服器名稱
 	$username = "root"; //使用者名稱(用root即可)
 	$pass = ""; //密碼(如果沒有更改，則用空字串即可)
