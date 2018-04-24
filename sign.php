@@ -14,7 +14,7 @@ if($link === false){
 $sql = "INSERT INTO user(Account,Password) VALUES ('$account', '$password')";
 if(mysqli_query($link, $sql)){
     echo "sign up successfully.<br>";
-	//header('Location: index.php');
+	header('Location: index.php');
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
