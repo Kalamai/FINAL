@@ -3,12 +3,7 @@
 $account=$_POST["account"];
 $password=$_POST["password"];
 $password2=$_POST["password2"];
-echo $account;
-echo $password;
-$link = mysqli_connect("localhost","root","","scphoto");
-mysqli_set_charset($link, "utf8");
-//$link = mysqli_connect("localhost", "", "", "");
- 
+include 'connect.php';
 // Check connection
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
