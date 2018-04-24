@@ -1,19 +1,10 @@
-<<<<<<< HEAD
+<?php
+	
+	session_start();
+?>
 
-
-=======
->>>>>>> 6ac646a9deaa6a1c569585ac62d257721dd46284
 <!DOCTYPE HTML>
-<!--
-	Snapshot by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 6ac646a9deaa6a1c569585ac62d257721dd46284
 <html>
 <head>
 	<title>S.C Photo</title>
@@ -52,23 +43,7 @@
 
 <?php
 	
-	session_start();
-	
-	if($_SESSION["account"] != null)
-		{   
-			echo "會員姓名: "; 
-			echo ($_SESSION["account"]);
-
-		   echo '<a href="logout.php">這裡是超連結</a><br>';			
-		}
-	else {
-
-			echo '<a href="sign.html">sign-up</a><br>';
-			echo '<a href="login.html">login</a><br>';
-		   //echo '<input type ="button" onclick="javascript:location.href="sign.html" value="Sign"></input>';
-
-		   //echo '<input type ="button" onclick="javascript:location.href="login.html" value="Login"></input>';		   
-	}
+include 'session.php';
 ?>
 		
 			<section id="banner">

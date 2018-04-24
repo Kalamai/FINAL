@@ -1,12 +1,11 @@
-<!DOCTYPE HTML>
-<!--
-	Snapshot by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <?php
-include 'session.php';
+	
+	session_start();
 ?>
+
+<!DOCTYPE HTML>
+
+
 
 <html>
 	
@@ -46,7 +45,9 @@ include 'session.php';
 
 			<!-- Header -->
 			<header id="header">
-				<a href="login.html">Login</a>
+<?php
+include 'session.php';
+?>
 			</header>
 
 			<!-- Gallery -->
