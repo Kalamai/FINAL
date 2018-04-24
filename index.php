@@ -1,7 +1,3 @@
-<?php
-// Start the session
-session_start();
-?>
 
 
 <!DOCTYPE HTML>
@@ -10,9 +6,6 @@ session_start();
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
-<?php
-//?>
-
 <html>
 <head>
 	<title>S.C Photo</title>
@@ -49,11 +42,26 @@ session_start();
 		<!-- Main -->
 		<section id="main">
 
-		<header id="header">
-		<input type ="button" onclick="javascript:location.href='sign.html'" value="Sign"></input>
-		<input type ="button" onclick="javascript:location.href='login.html'" value="Login"></input>		
+<?php
+	
+	session_start();
+	
+	if($_SESSION["account"] != null)
+		{   
+			echo "會員姓名: "; 
+			echo ($_SESSION["account"]);
 
-	</header>
+		   echo '<a href="logout.php">這裡是超連結</a><br>';			
+		}
+	else {
+
+			echo '<a href="sign.html">sign-up</a><br>';
+			echo '<a href="login.html">login</a><br>';
+		   //echo '<input type ="button" onclick="javascript:location.href="sign.html" value="Sign"></input>';
+
+		   //echo '<input type ="button" onclick="javascript:location.href="login.html" value="Login"></input>';		   
+	}
+?>
 		
 			<section id="banner">
 				<div class="inner">
@@ -73,19 +81,19 @@ session_start();
 				<div class="gallery">
 					<div class="content-left" style="background-color:#E8E8E8">
 						
-					<div id="first"  >
+					<div id="first" class=item>
 							<h3>1.Choose some photos</h3> 
 							<img src="https://bit.ly/2HSXgAf" width="50%" height="50%">
 						</div>
-						<div id="second"  >
+						<div id="second" class=item>
 						<h3>2.Upload them</h3> 
 							<img src="https://bit.ly/2JgvlJT" width="50%" height="50%">
 						</div>
-				<div id="third"  >
+				<div id="third" class=item>
 						<h3>3.Calculate on server</h3> 
 							<img src="https://bit.ly/2Hiqtax"  width="50%" height="50%">
 						</div>
-						<div id="fourth"  >
+						<div id="fourth" class=item>
 							<h3>4.Select successful!</h3>
 							<img src="https://bit.ly/2JgAzVY"  width="50%" height="50%"> 
 						</div>

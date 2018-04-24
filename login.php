@@ -13,7 +13,7 @@
 
 	if(mysqli_num_rows(mysqli_query($conn,$sql))>0){
 		session_start();
-		$_SESSION["username"]=$account;
+		$_SESSION["account"]=$account;
 		$_SESSION["Pw"]=$password;
 		echo "success";
 		header('location: index.php');
