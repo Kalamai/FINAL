@@ -1,4 +1,6 @@
 <?php
+session_start();
+$uf=$_SESSION["account"];
 $fileCount = count($_FILES['file']['name']);
 
    $file = $_FILES['file'];
@@ -24,7 +26,7 @@ for($i=0;$i<$fileCount;$i++)
        $pass = '';
        $link = ftp_connect($host,$port);
        ftp_login($link,$user,$pass);
-       ftp_chdir($link,'.');  //切換到要放檔案的資料夾
+       ftp_chdir($link,"./$uf");  //切換到要放檔案的資料夾
        //ftp_mkdir($link,"cccd");
        //ftp_chdir($link,"./cccd");
        if(ftp_put($link,$file_name_new,$file_tmp,FTP_BINARY)){

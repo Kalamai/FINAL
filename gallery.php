@@ -69,7 +69,7 @@
 
 					<div class="content">
 					<div>
-						<form action="upload.php" method="POST" enctype="multipart/form-data" class="upload">
+						<form action="upload4m.php" method="POST" enctype="multipart/form-data" class="upload">
 						<input type="file" name="file[]" id="" accept="image/jpeg,image/jpg,image/gif,image/png" multiple>							
 						<input type="submit" name="submit" value="上傳檔案" >
 						</form>
@@ -78,15 +78,7 @@
 				</div>
 			</section>
 
-				<section id="upload">
-					<div>
-						<form action="upload.php" method="POST" enctype="multipart/form-data" class="upload">
-						<input type="file" name="file[]" id="" accept="image/jpeg,image/jpg,image/gif,image/png" multiple>							
-						<input type="submit" name="submit" value="上傳檔案" >
-						</form>
-					</div>
-
-				</section>			
+						
 
 			<!-- Footer -->
 			<footer id="footer">
