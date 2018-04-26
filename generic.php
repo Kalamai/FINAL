@@ -57,21 +57,25 @@
 				<div class="inner" align="left">
 					<form name="form" method="POST" action="change.php">
 						<h4> Email : </h4>
-						<input type=email name="email" id="email" style="width:40%">
+						<input type=email name="email" id="email" style="width:300px">
 						<br>
 						<h4> Gender: </h4>
 
 						<br>						
-						<br>
 						<h4>Birthday : </h4>
 						<input type="date" name="bday">
-						<br>						
+						<br>
+						<br>
+						<h4> Intro: </h4>
+						<input type=text name="intro" id="intro" style="width:300px">
+						<br>						<br>	
+
 						<h4>Password : </h4>
-						<input type=password name="password" id="password" style="width:25%">
+						<input type=password name="password" id="password" style="width:300px">
 						<br>
                         <br>
                         <h4>Password Again: </h4>
-                        <input type=password name="password2" id="password2" style="width:25%">
+                        <input type=password name="password2" id="password2" style="width:300px">
                         <br>
                         <br>
 						<ul class="actions">
