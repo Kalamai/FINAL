@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<?php
+	
+	session_start();
+?>
+
+>>>>>>> 8ac3f59cedc22c98b7fe0a8c9edb19ee14eca947
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -27,26 +35,18 @@
 
 		<section id="main">
 
-<?php
-	
-	session_start();
-	
-	if(isset($_SESSION["account"]))
-		{   
-			echo "會員姓名: "; 
-			echo ($_SESSION['account']);
+			<!-- Header -->
 
-		   echo '<a href="logout.php">這裡是超連結</a><br>';			
-		}
-	else {
-
+<<<<<<< HEAD
 			echo '<a href="sign.html" style="float:right">sign-up</a><br>';
 			echo '<a href="login.html">login</a><br>';
 		   //echo '<input type ="button" onclick="javascript:location.href="sign.html" value="Sign"></input>';
+=======
+				<?php
+				include 'session.php';
+				?>
+>>>>>>> 8ac3f59cedc22c98b7fe0a8c9edb19ee14eca947
 
-		   //echo '<input type ="button" onclick="javascript:location.href="login.html" value="Login"></input>';		   
-	}
-?>
 		
 			<section id="banner">
 				<div class="inner">

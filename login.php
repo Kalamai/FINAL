@@ -16,8 +16,8 @@
 		$_SESSION["account"]=$account;
 		$_SESSION["Pw"]=$password;
 		echo "success";
-		header('location: index.php');
-	}
+		header('location: gallery.php');
+	} 
 	else{
 		echo"failed";
 	}
