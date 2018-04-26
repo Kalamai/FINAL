@@ -687,8 +687,8 @@
 	}
 
 	.gallery {
+		position:absolute;
 		padding: 3.5em;
-		position: relative;
 		min-height: 37em;
 	}
 		.special{
@@ -727,7 +727,7 @@
 		}
 		.content-right{
 			width:50%;
-			height:100%;
+			height:50%;
 			text-align: center;
 			float:left;
 			background-color:#FFF;

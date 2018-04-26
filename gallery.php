@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Snapshot by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <?php
 include 'session.php';
 ?>
@@ -74,8 +69,14 @@ include 'session.php';
 						</ul>
 					</header>
 
+
 					<div class="content">
-						
+					<div>
+						<form action="upload.php" method="POST" enctype="multipart/form-data" class="upload">
+						<input type="file" name="file[]" id="" accept="image/jpeg,image/jpg,image/gif,image/png" multiple>							
+						<input type="submit" name="submit" value="上傳檔案" >
+						</form>
+					</div>
 					</div>
 				</div>
 			</section>
