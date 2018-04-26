@@ -1,16 +1,10 @@
-<<<<<<< HEAD
-<!DOCTYPE HTML>
-=======
->>>>>>> 8ac3f59cedc22c98b7fe0a8c9edb19ee14eca947
 <?php
 	
 	session_start();
+
 ?>
 
 <!DOCTYPE HTML>
-
-
-
 <html>
 	
 <head>
@@ -19,7 +13,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
-
 <body>
 	<div class="page-wrap">
 
@@ -46,13 +39,9 @@
 
 		<!-- Main -->
 		<section id="main">
-
-
 				<?php
 				include 'session4m.php';
 				?>
-
-
 			<!-- Gallery -->
 			<section id="galleries">
 
@@ -77,7 +66,6 @@
 							</li>
 						</ul>
 					</header>
-
 
 					<div class="content">
 					<div>
