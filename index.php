@@ -30,7 +30,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="generic.html">
+					<a href="generic.php">
 						<span class="icon fa-file-text-o"></span>
 					</a>
 				</li>

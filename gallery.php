@@ -28,12 +28,12 @@
 					</a>
 				</li>
 				<li>
-					<a href="galleryphp" class="active">
+					<a href="gallery.php" class="active">
 						<span class="icon fa-camera-retro"></span>
 					</a>
 				</li>
 				<li>
-					<a href="generic.html">
+					<a href="generic.php">
 						<span class="icon fa-file-text-o"></span>
 					</a>
 				</li>
@@ -45,7 +45,7 @@
 
 
 				<?php
-				include 'session.php';
+				include 'session4m.php';
 				?>
 
 
