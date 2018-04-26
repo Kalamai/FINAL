@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+<!DOCTYPE HTML>
+=======
+>>>>>>> 8ac3f59cedc22c98b7fe0a8c9edb19ee14eca947
 <?php
 	
 	session_start();
@@ -74,8 +78,14 @@
 						</ul>
 					</header>
 
+
 					<div class="content">
-						
+					<div>
+						<form action="upload.php" method="POST" enctype="multipart/form-data" class="upload">
+						<input type="file" name="file[]" id="" accept="image/jpeg,image/jpg,image/gif,image/png" multiple>							
+						<input type="submit" name="submit" value="上傳檔案" >
+						</form>
+					</div>
 					</div>
 				</div>
 			</section>

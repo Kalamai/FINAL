@@ -1,8 +1,3 @@
-<?php
-	
-	session_start();
-?>
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -15,8 +10,6 @@
 <body>
 
 	<div class="page-wrap">
-
-		<!-- Nav -->
 		<nav id="nav">
 			<ul>
 				<li>
@@ -63,14 +56,14 @@
 			<section id="galleries">
 
 				<div class="gallery">
-					<div class="content-left" style="background-color:#E8E8E8">
+					<div class="content-left" style="background-color:#E8E8E8" >
 						
 					<div id="first" class=item>
 							<h3>1.Choose some photos</h3> 
 							<img src="https://bit.ly/2HSXgAf" width="50%" height="50%">
 						</div>
 						<div id="second" class=item>
-						<h3>2.Upload them</h3> 
+						<h3>2.Upload them and wait</h3> 
 							<img src="https://bit.ly/2JgvlJT" width="50%" height="50%">
 						</div>
 				<div id="third" class=item>
@@ -158,7 +151,7 @@
 										<a href="#" data-tag="thing" class="button">Things</a>
 									</li>
 		
-									<h1>使用者上傳結果顯示</h1>
+									<h1>After Classify </h1>
 								</ul>
 					</div>
 				</section>
